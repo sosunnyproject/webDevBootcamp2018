@@ -1,6 +1,6 @@
-.blog {
+body {
     border: 10px solid #bdc3c7;
-    margin: 0 30%;
+    margin: 20px 20%;
     font-family: 'Nanum Myeongjo', serif;
     padding: 20px;
 }
