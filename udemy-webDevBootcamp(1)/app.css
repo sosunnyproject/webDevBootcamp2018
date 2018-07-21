@@ -1,0 +1,94 @@
+/*
+colours.neilorangepeel.com
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+selector {
+    property: value;
+    anotherproperty: value;
+}
+
+https://www.cssfontstack.com/
+font-em-size: https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+https://fonts.google.com
+
+*/
+
+/* basic selectors Element */
+h1 {
+    color: rgb(255,105,180);
+    font-family: 'Nunito', sans-serif; 
+}
+
+h2 {
+    color: rgb(255, 0, 119);
+    font-family: 'Nunito', sans-serif; 
+}
+
+h3 {
+    color: rgba(165, 42, 42, 0.89);
+    font-family: 'Nunito', sans-serif; 
+
+}
+
+p {
+    width: 50%;
+    border: 2px solid blue;;
+    padding-left: 40px;
+    margin: 20px 20px;
+}
+
+/* class */
+
+.foodsurvey{
+    background-color: rgba(175, 174, 174, 0.60)
+}
+
+/*
+li.museumName {
+  border: 2px solid red;
+}
+*/
+
+/* id */
+
+#best {
+    text-decoration: green wavy underline
+}
+
+#foodform{
+    /*background-image: url("IMG_0292.jpg");*/
+    background-size: contain;
+   }
+
+   
+/* Star : Every single Element */
+ * {
+     font-family: Verdana;
+ }
+
+/* Descendent Selectors 
+when one tag is inside (and inside and inside...) of other parent tags
+*/
+div form {
+    background: rgb(212, 119, 119)
+}
+
+/* Adjacent Selectors 
+not under one another. applies to the latter tag which comes just right after the posterior tag
+*/
+h3 + ul {
+    border: 4px solid red;
+}
+
+/* Attribute Selector
+help: https://stackoverflow.com/questions/16839747/this-css-not-working-for-radio-button-selection
+*/
+input[type=radio] + label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* nth of type */
+li:nth-of-type(2) {
+    text-decoration: red wavy underline
+}

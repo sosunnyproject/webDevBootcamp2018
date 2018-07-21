@@ -1,0 +1,20 @@
+td.bottom {
+    border-bottom: 2px solid black;
+}
+
+td.right {
+    border-right: 2px solid black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}

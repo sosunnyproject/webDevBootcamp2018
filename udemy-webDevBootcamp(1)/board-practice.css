@@ -1,0 +1,33 @@
+.top-left {
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: black;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.top-middle {
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: black;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.top-right {
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: black;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+p {
+    color: red;
+}
