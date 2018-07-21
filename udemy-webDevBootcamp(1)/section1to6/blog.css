@@ -1,0 +1,31 @@
+.blog {
+    border: 10px solid #bdc3c7;
+    margin: 0 30%;
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 20px;
+}
+
+.date {
+    color: #3498db;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.emphasis {
+    border-left: 3px solid #bdc3c7;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 2em;
+}
+
+.post {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #e9e8e8fd;
+}
