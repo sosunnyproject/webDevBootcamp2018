@@ -24,10 +24,10 @@ h2 {
     font-family: 'Nunito', sans-serif; 
 }
 
-h3 {
+h4 {
     color: rgba(165, 42, 42, 0.89);
     font-family: 'Nunito', sans-serif; 
-
+    padding-top: 30px;
 }
 
 p {
@@ -37,12 +37,6 @@ p {
     margin: 20px 20px;
 }
 
-/* class */
-
-.foodsurvey{
-    background-color: rgba(175, 174, 174, 0.60)
-}
-
 /*
 li.museumName {
   border: 2px solid red;
@@ -50,10 +44,6 @@ li.museumName {
 */
 
 /* id */
-
-#best {
-    text-decoration: green wavy underline
-}
 
 #foodform{
     /*background-image: url("IMG_0292.jpg");*/
@@ -70,6 +60,7 @@ li.museumName {
 when one tag is inside (and inside and inside...) of other parent tags
 */
 div form {
+    margin-top: 50px;
     background: rgb(212, 119, 119)
 }
 
@@ -86,9 +77,4 @@ help: https://stackoverflow.com/questions/16839747/this-css-not-working-for-radi
 input[type=radio] + label {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-}
-
-/* nth of type */
-li:nth-of-type(2) {
-    text-decoration: red wavy underline
 }
