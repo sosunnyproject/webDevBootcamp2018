@@ -16,26 +16,33 @@ https://fonts.google.com
 /* basic selectors Element */
 h1 {
     color: rgb(255,105,180);
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
 }
 
 h2 {
     color: rgb(255, 0, 119);
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
 }
 
 h4 {
     color: rgba(165, 42, 42, 0.89);
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
     padding-top: 30px;
 }
 
-p {
+nav {
+  margin-bottom: 20px;
+}
+
+img {
+  
+}
+/* p {
     width: 50%;
-    border: 2px solid blue;;
+    border: 2px solid blue;
     padding-left: 40px;
     margin: 20px 20px;
-}
+} */
 
 /*
 li.museumName {
@@ -50,13 +57,13 @@ li.museumName {
     background-size: contain;
    }
 
-   
+
 /* Star : Every single Element */
  * {
      font-family: Verdana;
  }
 
-/* Descendent Selectors 
+/* Descendent Selectors
 when one tag is inside (and inside and inside...) of other parent tags
 */
 div form {
@@ -64,7 +71,7 @@ div form {
     background: rgb(212, 119, 119)
 }
 
-/* Adjacent Selectors 
+/* Adjacent Selectors
 not under one another. applies to the latter tag which comes just right after the posterior tag
 */
 h3 + ul {
