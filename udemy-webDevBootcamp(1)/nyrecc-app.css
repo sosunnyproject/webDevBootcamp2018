@@ -14,19 +14,31 @@ https://fonts.google.com
 */
 
 /* basic selectors Element */
-h1 {
-    color: rgb(255,105,180);
-    font-family: 'Nunito', sans-serif;
+#title {
+  text-align: center;
 }
+
+.title {
+    letter-spacing: 40px;
+    font-size: 40px;
+}
+
+.title_icon {
+  letter-spacing: 40px;
+}
+
+#nav-table {
+  width: 100%;
+  text-align: center;
+}
+
 
 h2 {
     color: rgb(255, 0, 119);
-    font-family: 'Nunito', sans-serif;
 }
 
 h4 {
     color: rgba(165, 42, 42, 0.89);
-    font-family: 'Nunito', sans-serif;
     padding-top: 30px;
 }
 
@@ -35,7 +47,7 @@ nav {
 }
 
 img {
-  
+
 }
 /* p {
     width: 50%;
@@ -60,7 +72,7 @@ li.museumName {
 
 /* Star : Every single Element */
  * {
-     font-family: Verdana;
+     font-family: 'Josefin Slab', serif;
  }
 
 /* Descendent Selectors
@@ -68,7 +80,6 @@ when one tag is inside (and inside and inside...) of other parent tags
 */
 div form {
     margin-top: 50px;
-    background: rgb(212, 119, 119)
 }
 
 /* Adjacent Selectors
@@ -82,6 +93,5 @@ h3 + ul {
 help: https://stackoverflow.com/questions/16839747/this-css-not-working-for-radio-button-selection
 */
 input[type=radio] + label {
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
