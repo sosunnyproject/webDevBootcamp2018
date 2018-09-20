@@ -14,17 +14,24 @@ https://fonts.google.com
 */
 
 /* basic selectors Element */
+
+* {
+  font-family: 'Josefin Slab', serif;
+}
+
 #title {
   text-align: center;
+  font-family: 'Josefin Slab', serif;
+  margin: 20px;
 }
 
 .title {
-    letter-spacing: 40px;
-    font-size: 40px;
+    letter-spacing: 20px;
+    font-size: 28px;
 }
 
 .title_icon {
-  letter-spacing: 40px;
+  letter-spacing: 20px;
 }
 
 #nav-table {
@@ -32,6 +39,9 @@ https://fonts.google.com
   text-align: center;
 }
 
+.btn-lg {
+  width: 100% !important;
+}
 
 h2 {
     color: rgb(255, 0, 119);
@@ -71,9 +81,6 @@ li.museumName {
 
 
 /* Star : Every single Element */
- * {
-     font-family: 'Josefin Slab', serif;
- }
 
 /* Descendent Selectors
 when one tag is inside (and inside and inside...) of other parent tags

@@ -7,7 +7,7 @@
   <title>New York City Recommendation by SoSunny</title>
   <link rel="stylesheet" type="text/css" href="nyrecc-app.css">
   <!--<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,800,900" rel="stylesheet">-->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Zilla+Slab" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -27,16 +27,16 @@
 
     <table id="nav-table">
       <tr>
-      <td><a href="#" role="button" class="btn btn-outline-dark btn-lg">
-        <i class="fas fa-landmark"></i>  museum</a>
+      <td><a href="#" role="button" class="btn btn-dark btn-lg">
+        <i class="fas fa-utensils"></i> eatery</a>
       </td>
-      <td><a href="#" role="button" class="btn btn-outline-dark btn-lg">
-        <i class="fas fa-utensils"></i>  eatery </a>
+      <td><a href="museum.html" role="button" class="btn btn-dark btn-lg">
+        <i class="fas fa-landmark"></i> museum</a>
       </td>
-      <td><a href="nycstreet.html" role="button" class="btn btn-outline-dark btn-lg">
+      <td><a href="nycstreet.html" role="button" class="btn btn-dark btn-lg">
         <i class="fas fa-road"></i>  street </a>
       </td>
-      <td><a href="#" role="button" class="btn btn-outline-dark btn-lg">
+      <td><a href="#" role="button" class="btn btn-dark btn-lg">
         <i class="far fa-heart"></i>  who-dis </a>
       </td>
      </tr>
@@ -45,7 +45,7 @@
   <!-- method - what HTTP method (get/post) -->
   <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label-->
   <!-- about <label  for=""> and <input id=""> -->
-  <div id="foodform" style="float:left">
+  <div id="foodform" class="zilla">
     <form>
       <div class="foodsurvey" >
         <h2>Foodie Places</h2>
@@ -78,222 +78,55 @@
         <label for="market">Market</label>
       </div>
       <div>
-        <button type="button" class="btn btn-primary btn-sm">Submit My Choice</button>
+        <button type="button" class="btn btn-primary btn-sm">submit</button>
       </div>
     </form>
 
   </div>
 
-  <div id="museum" style="float:right">
-    <form>
-      <h2>Museums</h2>
-      <div>
-        <input name="museumArea" id = "manhattan" type="radio" value="manhattan">
-        <label for="manhattan"> Manhattan </label>
-
-        <input name="museumArea" id = "brooklyn" type="radio" value="brooklyn">
-        <label for="brooklyn"> Brooklyn </label>
-
-        <input name="museumArea" id = "queens" type="radio" value="queens">
-        <label for="queens"> Queens </label>
-
-        <input name="museumArea" id = "upstateNewYork" type="radio" value="upstateny">
-        <label for="upstateNewYork"> Upstate New York </label>
-
+  <table>
+    <tr>
+      <td style="width:50%;"> hello </td>
+      <td>
+        <div class = "row">
+      <div class = "col-lg-4">
+          <!-- https://webapps.stackexchange.com/questions/54722/obtain-pinterest-images-source-url this answer fucking saved my day -->
+        <img src = "https://i.pinimg.com/originals/a6/96/1b/a6961bc0d631abd848fc66ea14373e00.jpg" class = "rounded float-right img-thumbnail mx-auto">
       </div>
-      <div>
-        <label>
-          Museum Open Dates
-          <select name="date">
-            <option value="mon">Monday</option>
-            <option value="tue">Tuesday</option>
-            <option value="wed">Wendesday</option>
-            <option value="thu">Thursday</option>
-            <option value="fri">Friday</option>
-            <option value="sat">Saturday</option>
-            <option value="sun">Sunday</option>
-          </select>
-        </label>
+      <div class = "col-lg-4">
+        <img src = "https://i.pinimg.com/originals/07/a2/94/07a2940d52930db622946d65b5553259.jpg" class = "rounded float-right img-thumbnail mx-auto">
       </div>
-    </form>
-  </div>
+      <div class = "col-lg-4">
+        <img src = "https://i.pinimg.com/originals/8c/b8/37/8cb837f58be875dd1f81244fcc80b8a1.jpg" class = "rounded float-right img-thumbnail mx-auto">
+      </div>
+      <div class = "col-lg-4">
+          <!-- https://webapps.stackexchange.com/questions/54722/obtain-pinterest-images-source-url this answer fucking saved my day -->
+        <img src = "https://i.pinimg.com/originals/05/0c/f1/050cf161787998280bc3686f411bf7d0.jpg" class = "rounded float-right img-thumbnail mx-auto">
+      </div>
+      <div class = "col-lg-4">
+        <img src = "https://i.pinimg.com/originals/81/b1/28/81b128cfeeb1387849ab287c743e2d95.jpg" class = "rounded float-right img-thumbnail mx-auto">
+      </div>
+      <div class = "col-lg-4">
+        <img src = "https://i.pinimg.com/originals/9d/7c/77/9d7c7733ef358196a0087d17c5f1f2d0.jpg" class = "rounded float-right img-thumbnail mx-auto">
+      </div>
+      <div class = "col-lg-4">
+          <!-- https://webapps.stackexchange.com/questions/54722/obtain-pinterest-images-source-url this answer fucking saved my day -->
+        <img src = "https://i.pinimg.com/originals/d8/da/5f/d8da5fad0bd8507151ee9ad78e4051a1.jpg" class = "rounded float-right img-thumbnail mx-auto">
+      </div>
+      <div class = "col-lg-4">
+        <img src = "https://i.pinimg.com/originals/80/16/b6/8016b6a97ab82c85408da870b7696641.jpg" class = "rounded float-right img-thumbnail mx-auto">
+      </div>
+      <div class = "col-lg-4">
+        <img src = "https://i.pinimg.com/originals/9d/7c/77/9d7c7733ef358196a0087d17c5f1f2d0.jpg" class = "rounded float-right img-thumbnail mx-auto">
+      </div>
+    </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
 
   <!--참조: https://ojji.wayful.com/2013/12/HTML-set-Two-Parallel-DIVs-columns.html-->
-  <div style="clear:both"></div>
-
-  <h4>Museums/Gallery Table</h4>
-  <table border = "1">
-    <thead>
-      <tr>
-        <td>Name</td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>Features</td>
-        <td>Exhibitions I've Been</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-            <input type="checkbox">
-            Guggenheim
-        </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>
-          <ul>
-            <li>Spiral architecture</li>
-            <li>Fairly modern contemporary sensation</li>
-            <li>Good to focus on a single artist</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Moholy-Nagy 2016</li>
-            <li>Agnes Martin 2017</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-            <input type="checkbox">
-            Whitney
-        </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>Features</td>
-        <td>
-          <ul>
-            <li>Whitney Bienniale 2017</li>
-            <li>Jeff Koons (in previous location - now Met Bauer)</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <input type="checkbox">
-          Brooklyn Museum
-        </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>
-          <ul>
-            <li>Exciting performances</li>
-            <li>Nice suburban feeling location with fountain</li>
-            <li>Trying to get better</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Afroculture performing event</li>
-            <li>Georgia O'Keeffe</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-            <input type="checkbox">
-            Met
-          </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>
-          <ul>
-            <li>HUGE</li>
-            <li>Try special exhibition season</li>
-            <li>Not sure about museum sections but good to chill around</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Manus x Machina 2016</li>
-            <li>Rei Kawakubo 2017</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-          <td>
-              <input type="checkbox">
-              Chelsea Galleries
-            </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>
-          <ul>
-            <li>Search what shows are going on before you randomly visit</li>
-            <li>Sometimes amazing exhibitions are going on...</li>
-            <li>Okay to hop in and hop out</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Chelsea Gallery Week - visit most of the galleries without pressure to buy anything</li>
-            <li>Leo Villareal: http://villareal.net/ at Pace Gallery</li>
-            <li>Jim Campbell at Bryce Wolkowitz Gallery</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-          <td>
-              <input type="checkbox">
-              New Museum
-            </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>
-          <ul>
-            <li>Hottest Museum in NYC</li>
-            <li>every floor is unique</li>
-            <li>creative and groundbreaking</li>
-          </ul>
-        </td>
-        <td>Pipillotti</td>
-      </tr>
-      <tr>
-          <td>
-              <input type="checkbox">
-              Met Bauer
-            </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>Old Whitney location</td>
-        <td>Random exhibition</td>
-      </tr>
-      <tr>
-          <td>
-              <input type="checkbox">
-              Moma PS1
-            </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>Cool parties, Hipster vibes, fresh works</td>
-        <td>
-          <tr>Museum Night</tr>
-        </td>
-      </tr>
-      <tr>
-          <td>
-              <input type="checkbox">
-              Neue Gallery
-            </td>
-        <td>Open Hours</td>
-        <td>Tix Price</td>
-        <td>
-          <ul>
-            <li>Austria-centered</li>
-            <li>small and intimate</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Gustav Klimt</li>
-            <li>Egon Schiele</li>
-          </ul>
-        </td>
-      </tr>
-
-    </tbody>
-  </table>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

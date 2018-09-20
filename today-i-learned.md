@@ -34,4 +34,9 @@ li:nth-of-type(2)
 - choose to manually include bootstrap.css file within the same directory of html file OR use BootstrapCDN virtually
   - bootstrap cdn link & refer to https://getbootstrap.com/docs/4.1/components/buttons/
 
-- 
+## ny-recc website building project
+1. embed map: https://developers.google.com/maps/documentation/embed/get-api-key
+
+2. fonts: Josefin Slab, Zilla Slab
+
+3. div style:float-right, div style:float-left, div style="clear:both"
